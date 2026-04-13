@@ -1,6 +1,6 @@
-# Seedance Video Skills
+# Seedance Viral Forge
 
-本仓库是 Seedance 专用脚本仓库，现在只维护一套生产版 skills，不再保留平行目录。
+本仓库名为 Seedance Viral Forge，是一个 Seedance 专用脚本仓库，现在只维护一套生产版 skills，不再保留平行目录。
 
 ## Canonical Paths
 

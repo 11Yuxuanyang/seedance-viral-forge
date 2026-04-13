@@ -8,7 +8,7 @@ Reusable AI video prompt skills for Seedance 2.0 / 即梦: product-selling scrip
 
 ## Homepage
 
-https://11yuxuanyang.github.io/ai-video-skills/
+https://11yuxuanyang.github.io/seedance-viral-forge/
 
 ## Topics
 

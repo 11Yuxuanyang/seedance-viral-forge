@@ -1,16 +1,16 @@
-# AI Video Skills for Seedance 2.0 / 即梦
+# Seedance Viral Forge
 
 This documentation site explains a reusable repository of AI video prompt skills for product-selling videos, merchant lead-generation dance videos, and trend-based traffic prompts.
 
 Repository:
-- https://github.com/11Yuxuanyang/ai-video-skills
+- https://github.com/11Yuxuanyang/seedance-viral-forge
 
 Best entry points:
-- https://11yuxuanyang.github.io/ai-video-skills/
-- https://11yuxuanyang.github.io/ai-video-skills/seedance-product-video-prompts.html
-- https://11yuxuanyang.github.io/ai-video-skills/jimeng-merchant-dance-video-scripts.html
-- https://11yuxuanyang.github.io/ai-video-skills/ai-trend-video-prompts.html
-- https://11yuxuanyang.github.io/ai-video-skills/reusable-ai-video-skill-design.html
+- https://11yuxuanyang.github.io/seedance-viral-forge/
+- https://11yuxuanyang.github.io/seedance-viral-forge/seedance-product-video-prompts.html
+- https://11yuxuanyang.github.io/seedance-viral-forge/jimeng-merchant-dance-video-scripts.html
+- https://11yuxuanyang.github.io/seedance-viral-forge/ai-trend-video-prompts.html
+- https://11yuxuanyang.github.io/seedance-viral-forge/reusable-ai-video-skill-design.html
 
 Core topics:
 - Seedance 2.0 prompts

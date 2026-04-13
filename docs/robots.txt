@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://11yuxuanyang.github.io/ai-video-skills/sitemap.xml
+Sitemap: https://11yuxuanyang.github.io/seedance-viral-forge/sitemap.xml

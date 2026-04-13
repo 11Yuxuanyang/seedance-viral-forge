@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-title: "AI Video Skills for Seedance 2.0 / 即梦"
+title: "Seedance Viral Forge"
 message: "If you use this repository, please cite it."
 type: software
 authors:
   - family-names: Yang
     given-names: Yuxuanyang
-repository-code: "https://github.com/11Yuxuanyang/ai-video-skills"
-url: "https://github.com/11Yuxuanyang/ai-video-skills"
+repository-code: "https://github.com/11Yuxuanyang/seedance-viral-forge"
+url: "https://github.com/11Yuxuanyang/seedance-viral-forge"
 abstract: "Reusable AI video prompt skills for generating Chinese short-video scripts for Seedance 2.0 and 即梦."
 keywords:
   - Seedance 2.0
