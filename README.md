@@ -100,11 +100,15 @@ Use [`shared/SEEDANCE_BASELINE.md`](./shared/SEEDANCE_BASELINE.md) plus the thre
 
 ## Documentation
 
-- Docs home: `https://11yuxuanyang.github.io/ai-video-skills/`
+- Docs home: `https://11yuxuanyang.github.io/seedance-viral-forge/`
 - How to write Seedance product-selling prompts: [`docs/seedance-product-video-prompts.html`](./docs/seedance-product-video-prompts.html)
 - How to make 即梦 merchant dance videos: [`docs/jimeng-merchant-dance-video-scripts.html`](./docs/jimeng-merchant-dance-video-scripts.html)
 - How to make trend-based AI short videos: [`docs/ai-trend-video-prompts.html`](./docs/ai-trend-video-prompts.html)
 - How this repo structures reusable AI video skills: [`docs/reusable-ai-video-skill-design.html`](./docs/reusable-ai-video-skill-design.html)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=11Yuxuanyang/seedance-viral-forge&type=Date)](https://www.star-history.com/#11Yuxuanyang/seedance-viral-forge&Date)
 
 ## Repository Structure
 
