@@ -1,60 +1,128 @@
-# seedance-video-skills
+# Seedance Viral Forge
 
-专门面向 Seedance 2.0 / 即梦 的短视频脚本技能仓库。目标不是写“好看的提示词”，而是产出能直接拿去生成、发布、测数据的中文脚本。
+Reusable AI video prompt skills for builders who need Chinese short-video scripts that can be copied into Seedance 2.0 and published fast.
 
-## 生产版 Skills
+Seedance Viral Forge 是一个面向即梦 / Seedance 2.0 的 AI 视频脚本仓库，重点不是“写好看的提示词”，而是产出能直接生成、发布、测数据的中文脚本。
 
-| Skill | 触发词 | 用途 |
-|------|------|------|
-| `通用场景` | `/通用场景` | 产品带货脚本 |
-| `跳舞` | `/跳舞` | 商家场景引流脚本 |
-| `热梗` | `/热梗` | 热点流量脚本 |
+## What This Project Does
 
-## 仓库原则
+This repository helps users generate structured Chinese AI video scripts for three real short-video jobs:
 
-- 单一真相：生产版 skill 只保留在仓库根目录的三个文件夹里
-- 默认先输出到对话，不自动写文件；只有用户明确要求时才保存
-- 共通规范集中写在 [shared/SEEDANCE_BASELINE.md](/Users/yuxuanyang/ai-video/shared/SEEDANCE_BASELINE.md)
-- 历史草稿和旧快照不参与当前维护，统一放到 `archive/`
+- product-selling videos
+- merchant lead-gen dance videos
+- trend-driven traffic videos
 
-## 典型工作流
+Instead of treating prompt writing like vague inspiration, this repo turns it into reusable skills with clear inputs, default flows, output formats, and safety boundaries.
 
-1. 用户给输入
-2. Skill 先给 3 个方案卡或 1 个角度矩阵
-3. 用户选择
-4. Skill 输出最终脚本
-5. 用户再决定是否保存成 `.md`
+## Why This Matters
 
-## 最小输入要求
+Most AI video prompt collections fail in production for the same reasons:
 
-### 通用场景
+- they produce pretty wording instead of usable scripts
+- they do not ask for the minimum missing inputs
+- they mix default chat output with automatic file writing
+- they ignore how Seedance handles memory, physical detail, and motion continuity
 
-- 产品名
-- 产品是什么
-- 1-3 个卖点
-- 最好补一句“长什么样、怎么用”
+This repo is designed for the opposite. It favors direct-to-generation scripts, conservative defaults, and repeatable operator behavior.
 
-### 跳舞
+## What You Get
 
-- 商家类型
-- 商家最值得拍的点
-- 团购/套餐卖什么
-- 想要小姐姐、帅哥，还是不限
+| Part | What it does |
+|------|---------------|
+| `通用场景/SKILL.md` | Generates product-selling scripts for Douyin / 即梦 workflows |
+| `跳舞/SKILL.md` | Generates merchant dance lead-gen scripts built around scene + character attraction |
+| `热梗/SKILL.md` | Generates trend-driven traffic prompts for short viral clips |
+| `shared/SEEDANCE_BASELINE.md` | Shared production rules for all three skills |
+| `docs/` | GitHub Pages landing pages for search and AI discovery |
+| `archive/` | Old drafts and non-production material |
 
-### 热梗
+## Quick Start
 
-- 直接给热点
-- 或只输入 `/热梗`，让 skill 先查最近热点再给方案
+### 1. Pick the right skill
 
-## 目录结构
+- Product selling: [`通用场景/SKILL.md`](./通用场景/SKILL.md)
+- Merchant scene traffic: [`跳舞/SKILL.md`](./跳舞/SKILL.md)
+- Trend traffic: [`热梗/SKILL.md`](./热梗/SKILL.md)
+
+### 2. Give the minimum usable input
+
+For `通用场景`:
+
+- product name
+- category
+- 1-3 selling points
+- ideally what it looks like and how it is used
+
+For `跳舞`:
+
+- merchant type
+- the most filmable part of the venue
+- what the offer / package sells
+
+For `热梗`:
+
+- a specific trend
+- or just `/热梗` and let the skill propose directions
+
+### 3. Follow the default flow
+
+1. The skill extracts what is missing.
+2. It returns 3 direction cards.
+3. The user chooses A, B, C, or asks for all.
+4. The skill outputs the final script in Chinese.
+
+## Use Cases
+
+### How to generate Seedance 2.0 product video scripts in Chinese
+
+Use [`通用场景/SKILL.md`](./通用场景/SKILL.md) when you need short product-selling scripts with a clear reveal, simple shot logic, and natural CTA placement.
+
+### How to create merchant dance promo prompts for 即梦
+
+Use [`跳舞/SKILL.md`](./跳舞/SKILL.md) when the goal is local lead-gen: grab attention with character energy, then move viewers toward the venue or offer.
+
+### How to turn current trends into AI short-video prompts
+
+Use [`热梗/SKILL.md`](./热梗/SKILL.md) when you want traffic-first scripts built around hot topics, visual absurdity, and proven viral patterns.
+
+### How to design reusable skills for AI video prompt workflows
+
+Use [`shared/SEEDANCE_BASELINE.md`](./shared/SEEDANCE_BASELINE.md) plus the three production skills to study how prompt work can be structured into reusable operational protocols instead of one-off prompt dumps.
+
+## Core Principles
+
+- Copyable into Seedance first
+- Chinese-only production output
+- Ask for the minimum missing detail, not a giant intake form
+- Default to conversation output, not file writing
+- Repeat physical details because the model does not remember reliably
+- Prefer one-shot or very few scene changes
+
+## Documentation
+
+- Docs home: `https://11yuxuanyang.github.io/ai-video-skills/`
+- How to write Seedance product-selling prompts: [`docs/seedance-product-video-prompts.html`](./docs/seedance-product-video-prompts.html)
+- How to make 即梦 merchant dance videos: [`docs/jimeng-merchant-dance-video-scripts.html`](./docs/jimeng-merchant-dance-video-scripts.html)
+- How to make trend-based AI short videos: [`docs/ai-trend-video-prompts.html`](./docs/ai-trend-video-prompts.html)
+- How this repo structures reusable AI video skills: [`docs/reusable-ai-video-skill-design.html`](./docs/reusable-ai-video-skill-design.html)
+
+## Repository Structure
 
 ```text
 ai-video/
 ├── README.md
+├── AGENTS.md
+├── llms.txt
+├── CITATION.cff
 ├── CLAUDE.md
 ├── shared/
 │   └── SEEDANCE_BASELINE.md
 ├── docs/
+│   ├── index.html
+│   ├── styles.css
+│   ├── llms.txt
+│   ├── robots.txt
+│   ├── sitemap.xml
 │   └── plans/
 ├── 通用场景/
 │   └── SKILL.md
@@ -65,9 +133,27 @@ ai-video/
 └── archive/
 ```
 
-## 维护规则
+## Best Entry Points
 
-- 改共通约束，先改 `shared/SEEDANCE_BASELINE.md`
-- 改调用协议，再改对应的 `SKILL.md`
-- 不要再引入第二套平行目录
-- 需要实验新 skill，就放到 `archive/experiments/` 或单独分支，不要混进生产版
+- [`README.md`](./README.md)
+- [`AGENTS.md`](./AGENTS.md)
+- [`llms.txt`](./llms.txt)
+- [`shared/SEEDANCE_BASELINE.md`](./shared/SEEDANCE_BASELINE.md)
+- [`通用场景/SKILL.md`](./通用场景/SKILL.md)
+- [`跳舞/SKILL.md`](./跳舞/SKILL.md)
+- [`热梗/SKILL.md`](./热梗/SKILL.md)
+
+## Keywords This Repository Covers
+
+- Seedance 2.0 prompts
+- 即梦提示词
+- AI video script skills
+- Chinese short-video prompts
+- Douyin AI product video script
+- merchant dance promo prompt
+- viral trend AI video prompt
+- reusable `SKILL.md` design
+
+## License
+
+MIT. See [LICENSE](./LICENSE).

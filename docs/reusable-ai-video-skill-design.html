@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Design Reusable AI Video Skills with SKILL.md</title>
+    <meta name="description" content="How this repository structures reusable AI video prompt workflows with SKILL.md files, baseline constraints, default flows, and production-safe behavior.">
+    <link rel="canonical" href="https://11yuxuanyang.github.io/ai-video-skills/reusable-ai-video-skill-design.html">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Skill Design</p>
+        <h1>How to design reusable AI video skills with SKILL.md</h1>
+        <p class="lede">A reusable prompt skill is not just a good prompt. It is a protocol: what problem it solves, what minimum input it needs, what defaults it assumes, what it refuses to generate, and what output shape it guarantees.</p>
+        <nav class="nav">
+          <a href="./index.html">Home</a>
+          <a href="https://github.com/11Yuxuanyang/ai-video-skills/blob/main/shared/SEEDANCE_BASELINE.md">Shared baseline</a>
+        </nav>
+      </section>
+
+      <section class="section">
+        <h2>What this repository encodes</h2>
+        <p>Each production skill in this repository states the problem, minimum input, missing-field behavior, default workflow, batch-mode boundary, final output format, and generation constraints. The shared baseline centralizes rules that should not drift across skills.</p>
+      </section>
+
+      <section class="section">
+        <h2>Why this matters</h2>
+        <p>Without structure, prompt systems become prompt piles. They become hard to maintain, hard to route, and easy to regress. A stable `SKILL.md` format makes the workflow legible to both humans and AI agents.</p>
+      </section>
+
+      <section class="section">
+        <h2>Chinese summary</h2>
+        <p>如果一个视频 prompt 体系离开作者本人就不会用了，那它不是 skill，只是个人手感。这个仓库的价值之一，就是把手感固化成可复用协议。</p>
+      </section>
+    </main>
+  </body>
+  </html>
