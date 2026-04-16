@@ -29,9 +29,9 @@ This repo is designed for the opposite. It favors direct-to-generation scripts, 
 
 | Part | What it does |
 |------|---------------|
-| `通用场景/SKILL.md` | Generates product-selling scripts for Douyin / 即梦 workflows |
-| `跳舞/SKILL.md` | Generates merchant dance lead-gen scripts built around scene + character attraction |
-| `热梗/SKILL.md` | Generates trend-driven traffic prompts for short viral clips |
+| `skills/通用场景/SKILL.md` | Generates product-selling scripts for Douyin / 即梦 workflows |
+| `skills/跳舞/SKILL.md` | Generates merchant dance lead-gen scripts built around scene + character attraction |
+| `skills/热梗/SKILL.md` | Generates trend-driven traffic prompts for short viral clips |
 | `shared/SEEDANCE_BASELINE.md` | Shared production rules for all three skills |
 | `docs/` | GitHub Pages landing pages for search and AI discovery |
 | `archive/` | Old drafts and non-production material |
@@ -40,9 +40,9 @@ This repo is designed for the opposite. It favors direct-to-generation scripts, 
 
 ### 1. Pick the right skill
 
-- Product selling: [`通用场景/SKILL.md`](./通用场景/SKILL.md)
-- Merchant scene traffic: [`跳舞/SKILL.md`](./跳舞/SKILL.md)
-- Trend traffic: [`热梗/SKILL.md`](./热梗/SKILL.md)
+- Product selling: [`skills/通用场景/SKILL.md`](./skills/通用场景/SKILL.md)
+- Merchant scene traffic: [`skills/跳舞/SKILL.md`](./skills/跳舞/SKILL.md)
+- Trend traffic: [`skills/热梗/SKILL.md`](./skills/热梗/SKILL.md)
 
 ### 2. Give the minimum usable input
 
@@ -75,15 +75,15 @@ For `热梗`:
 
 ### How to generate Seedance 2.0 product video scripts in Chinese
 
-Use [`通用场景/SKILL.md`](./通用场景/SKILL.md) when you need short product-selling scripts with a clear reveal, simple shot logic, and natural CTA placement.
+Use [`skills/通用场景/SKILL.md`](./skills/通用场景/SKILL.md) when you need short product-selling scripts with a clear reveal, simple shot logic, and natural CTA placement.
 
 ### How to create merchant dance promo prompts for 即梦
 
-Use [`跳舞/SKILL.md`](./跳舞/SKILL.md) when the goal is local lead-gen: grab attention with character energy, then move viewers toward the venue or offer.
+Use [`skills/跳舞/SKILL.md`](./skills/跳舞/SKILL.md) when the goal is local lead-gen: grab attention with character energy, then move viewers toward the venue or offer.
 
 ### How to turn current trends into AI short-video prompts
 
-Use [`热梗/SKILL.md`](./热梗/SKILL.md) when you want traffic-first scripts built around hot topics, visual absurdity, and proven viral patterns.
+Use [`skills/热梗/SKILL.md`](./skills/热梗/SKILL.md) when you want traffic-first scripts built around hot topics, visual absurdity, and proven viral patterns.
 
 ### How to design reusable skills for AI video prompt workflows
 
@@ -128,12 +128,13 @@ ai-video/
 │   ├── robots.txt
 │   ├── sitemap.xml
 │   └── plans/
-├── 通用场景/
-│   └── SKILL.md
-├── 跳舞/
-│   └── SKILL.md
-├── 热梗/
-│   └── SKILL.md
+├── skills/
+│   ├── 通用场景/
+│   │   └── SKILL.md
+│   ├── 跳舞/
+│   │   └── SKILL.md
+│   └── 热梗/
+│       └── SKILL.md
 └── archive/
 ```
 
@@ -143,9 +144,9 @@ ai-video/
 - [`AGENTS.md`](./AGENTS.md)
 - [`llms.txt`](./llms.txt)
 - [`shared/SEEDANCE_BASELINE.md`](./shared/SEEDANCE_BASELINE.md)
-- [`通用场景/SKILL.md`](./通用场景/SKILL.md)
-- [`跳舞/SKILL.md`](./跳舞/SKILL.md)
-- [`热梗/SKILL.md`](./热梗/SKILL.md)
+- [`skills/通用场景/SKILL.md`](./skills/通用场景/SKILL.md)
+- [`skills/跳舞/SKILL.md`](./skills/跳舞/SKILL.md)
+- [`skills/热梗/SKILL.md`](./skills/热梗/SKILL.md)
 
 ## Keywords This Repository Covers
 

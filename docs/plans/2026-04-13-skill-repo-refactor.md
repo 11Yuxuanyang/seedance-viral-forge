@@ -4,7 +4,7 @@
 
 **Goal:** 把仓库收口为一套生产版 skill 结构，统一协议、入口文档和维护规则。
 
-**Architecture:** 保留根目录三个生产版 skill 作为唯一真相；新增共享规范文档和 README；把旧的嵌套快照移入 `archive/`，避免双份维护。
+**Architecture:** 保留 `skills/` 下三个生产版 skill 作为唯一真相；新增共享规范文档和 README；把旧的嵌套快照移入 `archive/`，避免双份维护。
 
 **Tech Stack:** Markdown, Codex skills, Seedance prompt conventions
 
@@ -33,9 +33,9 @@
 ### Task 3: 重写三个生产版 Skill
 
 **Files:**
-- Modify: `通用场景/SKILL.md`
-- Modify: `跳舞/SKILL.md`
-- Modify: `热梗/SKILL.md`
+- Modify: `skills/通用场景/SKILL.md`
+- Modify: `skills/跳舞/SKILL.md`
+- Modify: `skills/热梗/SKILL.md`
 
 **Step 1:** 统一 front matter  
 **Step 2:** 统一默认模式、批量模式、保存策略  
@@ -59,4 +59,3 @@
 **Step 2:** 检查三个 skill 是否都声明默认不自动保存  
 **Step 3:** 检查 `热梗` invocation 与正文是否一致  
 **Step 4:** 用 `git diff --stat` 做最终核对
-
